@@ -2,6 +2,7 @@
 .env
 .next
 node_modules
+node_modules/*
 ### react ###
 .DS_*
 *.log
@@ -9,3 +10,4 @@ logs
 **/*.backup.*
 **/*.back.*
 yarn.lock
+next-env.d.ts

@@ -1,10 +1,32 @@
-.wrapper {
+.footerSection {
+    font-family: var(--font-base);
     position: absolute;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     bottom: 0; 
     left: 0;
     width: 100vw;
-    background-color: white;
     height: 200px;
+    background-color: #8ACEFF;
+    padding: 3rem;
+
+    &__firstRow {
+        display: flex;
+    }
+
+    &__logo {
+        height: 100%;
+    }
+
+    &__description {
+        font-size: 1.4em;
+
+        img {
+            width: 164px;
+            transform:translateY(13px);
+        }
+    }
+
 }
+
